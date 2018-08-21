@@ -1,0 +1,14 @@
+/* TODO: pull this out to material ui style declaration */
+.app {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0.397);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen-container {
+    width: 50%;
+    height: 100%;
+}
