@@ -1,6 +1,6 @@
 # What is this?
 
-This is my repo for the g2i React assessment. It is a 10 question trivia app.
+This is my repo for the g2i React assessment. It is a 10 question trivia app. Find the assessment [here](https://gist.github.com/severnsc/e09f4f8742b7dd91af9c422d6f210a57)
 
 # How is this app assessed?
 
