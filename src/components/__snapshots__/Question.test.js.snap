@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="Question-container-1"
+>
+  <h1
+    className="MuiTypography-root-5 MuiTypography-headline-10 MuiTypography-gutterBottom-22 MuiTypography-alignCenter-18"
+  >
+    Category
+  </h1>
+  <div
+    className="Question-questionBox-2"
+  >
+    <aside
+      className="MuiTypography-root-5 MuiTypography-body2-13 MuiTypography-gutterBottom-22 MuiTypography-alignCenter-18"
+    >
+      Question here... what is the queen of England's shoe size?
+    </aside>
+  </div>
+  <div
+    className="Question-answerContainer-3"
+  >
+    <button
+      className="MuiButtonBase-root-56 MuiButton-root-30 MuiButton-contained-41 MuiButton-containedSecondary-43 MuiButton-raised-44 MuiButton-raisedSecondary-46 Question-button-4"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-31"
+      >
+        FALSE
+      </span>
+      <span
+        className="MuiTouchRipple-root-59"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-56 MuiButton-root-30 MuiButton-contained-41 MuiButton-containedPrimary-42 MuiButton-raised-44 MuiButton-raisedPrimary-45 Question-button-4"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-31"
+      >
+        TRUE
+      </span>
+      <span
+        className="MuiTouchRipple-root-59"
+      />
+    </button>
+  </div>
+  <aside
+    className="MuiTypography-root-5 MuiTypography-body2-13 MuiTypography-gutterBottom-22 MuiTypography-alignCenter-18"
+  >
+    1 of 10
+  </aside>
+</div>
+`;
