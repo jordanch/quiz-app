@@ -30,7 +30,7 @@ const styles = (theme) => ({
 })
 
 const Question = (props) => {
-  const { classes } = props
+  const { classes, question } = props
 
   return (
     <div className={classes.container}>
@@ -61,7 +61,8 @@ const Question = (props) => {
 }
 
 Question.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  questions: PropTypes.object.isRequired
 }
 
 export default withStyles(styles)(Question)

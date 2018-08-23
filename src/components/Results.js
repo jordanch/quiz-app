@@ -5,6 +5,8 @@ import Button from "@material-ui/core/Button"
 import PropTypes from "prop-types"
 import { Link } from "react-router-dom"
 import Add from "@material-ui/icons/Add"
+import Remove from "@material-ui/icons/Remove"
+import { isUserCorrect } from "../util/quizEntity"
 
 const styles = (theme) => ({
   container: {
@@ -42,7 +44,7 @@ const styles = (theme) => ({
 })
 
 const Results = (props) => {
-  const { classes } = props
+  const { classes, quizEntities } = props
 
   return (
     <div className={classes.container}>
@@ -52,55 +54,31 @@ const Results = (props) => {
         </Typography>
 
         <Typography variant="headline" gutterBottom align="center">
-          3 / 10
+          {`${quizEntities.reduce(
+            (acc, curr) => acc + (isUserCorrect(curr) ? 1 : 0),
+            0
+          )} of ${quizEntities.length}`}
         </Typography>
       </div>
 
       <div className={classes.results}>
+        {quizEntities.map((quizEntity) => (
+          <div className={classes.resultRow} key={quizEntity.appId}>
+            {quizEntity.userAnswer === quizEntity.correctAnswer && (
+              <Add className={classes.resultRowItemIcon} />
+            )}
 
-        <div className={classes.resultRow}>
-          <Add className={classes.resultRowItemIcon} />
-          <div className={classes.resultRowItemText}>
-            <Typography variant="body2" align="left">
-              {"Question here... what is the queen of England's shoe size?"}
-            </Typography>
-          </div>
-        </div>
+            {quizEntity.userAnswer !== quizEntity.correctAnswer && (
+              <Remove className={classes.resultRowItemIcon} />
+            )}
 
-        <div className={classes.resultRow}>
-          <Add className={classes.resultRowItemIcon} />
-          <div className={classes.resultRowItemText}>
-            <Typography variant="body2" align="left">
-              {"Question here... what is the queen of England's shoe size?"}
-            </Typography>
+            <div className={classes.resultRowItemText}>
+              <Typography variant="body2" align="left">
+                {quizEntity.question}
+              </Typography>
+            </div>
           </div>
-        </div>
-        <div className={classes.resultRow}>
-          <Add className={classes.resultRowItemIcon} />
-          <div className={classes.resultRowItemText}>
-            <Typography variant="body2" align="left">
-              {"Question here... what is the queen of England's shoe size?"}
-            </Typography>
-          </div>
-        </div>
-        <div className={classes.resultRow}>
-          <Add className={classes.resultRowItemIcon} />
-          <div className={classes.resultRowItemText}>
-            <Typography variant="body2" align="left">
-              {"Question here... what is the queen of England's shoe size?"}
-            </Typography>
-          </div>
-        </div>
-        <div className={classes.resultRow}>
-          <Add className={classes.resultRowItemIcon} />
-          <div className={classes.resultRowItemText}>
-            <Typography variant="body2" align="left">
-              {"Question here... what is the queen of England's shoe size?"}
-            </Typography>
-          </div>
-        </div>
-
-
+        ))}
       </div>
 
       <Link to="/" className={classes.buttonLink}>
@@ -113,7 +91,8 @@ const Results = (props) => {
 }
 
 Results.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  quizEntities: PropTypes.array.isRequired
 }
 
 export default withStyles(styles)(Results)

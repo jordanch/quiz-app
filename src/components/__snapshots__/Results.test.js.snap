@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
+<div
+  className="Results-container-1"
+>
+  <div
+    className="Results-score-2"
+  >
+    <h1
+      className="MuiTypography-root-10 MuiTypography-headline-15 MuiTypography-gutterBottom-27 MuiTypography-alignCenter-23"
+    >
+      You scored
+    </h1>
+    <h1
+      className="MuiTypography-root-10 MuiTypography-headline-15 MuiTypography-gutterBottom-27 MuiTypography-alignCenter-23"
+    >
+      4 of 10
+    </h1>
+  </div>
+  <div
+    className="Results-results-3"
+  >
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          This is the correct spelling of "Supercalifragilisticexpialidocious".
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13H5v-2h14v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          Joseph Stalin's real name was Ioseb Bessarionis dze Dzugashvili.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          In "Portal 2", Cave Johnson started out Aperture Science as a shower curtain company.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13H5v-2h14v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          If you could fold a piece of paper in half 50 times, its' thickness will be 3/4th the distance from the Earth to the Sun.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13H5v-2h14v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          "Cube", "Cube 2: Hypercube" and "Cube Zero" were directed by the same person.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13H5v-2h14v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          Harry Potter was born on July 31st, 1980.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          The Klingon home planet is Qo'noS.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          L'Hôpital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13H5v-2h14v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          Pete Townshend's solo album, "White City: A Novel", is set in the metropolitan area of Chicago.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13H5v-2h14v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          Spoon theory is a theory, utilizing "Spoons" as a metaphor for energy they can use in a day.
+        </aside>
+      </div>
+    </div>
+  </div>
+  <a
+    className="Results-buttonLink-8"
+    href="/"
+    onClick={[Function]}
+  >
+    <button
+      className="MuiButtonBase-root-68 MuiButton-root-42 MuiButton-contained-53 MuiButton-containedPrimary-54 MuiButton-raised-56 MuiButton-raisedPrimary-57 Results-button-7"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-43"
+      >
+        PLAY AGAIN?
+      </span>
+      <span
+        className="MuiTouchRipple-root-71"
+      />
+    </button>
+  </a>
+</div>
+`;
