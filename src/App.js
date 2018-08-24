@@ -4,14 +4,9 @@ import ResultsContainer from "./containers/Results.container"
 import StartContainer from "./containers/Start.container"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import { Provider } from "react-redux"
-import store from "./store/quiz_app.store"
 import "./App.css"
 import { fetchQuizData } from "./actions/quiz_entities.actions"
-
-/*
-TODO:
-is it okay to have a closure here on the store?
-*/
+import PropTypes from "prop-types"
 
 class App extends Component {
   constructor(props) {
@@ -20,10 +15,12 @@ class App extends Component {
 
   async componentDidMount() {
     // TODO: error handling.
+    const { store } = this.props;
     store.dispatch(fetchQuizData())
   }
 
   render() {
+    const { store } = this.props;
     return (
       <Provider store={store}>
         <Router>
@@ -47,6 +44,10 @@ class App extends Component {
       </Provider>
     )
   }
+}
+
+App.propTypes = {
+  store: PropTypes.object.isRequired
 }
 
 export default App

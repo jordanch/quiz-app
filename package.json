@@ -19,12 +19,13 @@
   "scripts": {
     "start": "npx react-scripts start",
     "build": "npx react-scripts build",
-    "test": "npx react-scripts test --env=jsdom",
+    "test": "TEST_ENV=true npx react-scripts test --env=jsdom",
     "eject": "npx react-scripts eject"
   },
   "devDependencies": {
     "eslint": "^5.4.0",
     "eslint-plugin-react": "^7.11.1",
+    "jest-mock": "^23.2.0",
     "react-test-renderer": "^16.4.2"
   }
 }

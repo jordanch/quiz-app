@@ -19,7 +19,6 @@ export function handleApiData(data) {
     category: quizEntry.category,
     question: entities.decode(quizEntry.question),
     correctAnswer: quizEntry.correct_answer === "True" ? true : false,
-    incorrectAnswers: quizEntry.incorrect_answers,
     appId: hashCode(quizEntry.question),
     userAnswer: null
   }))

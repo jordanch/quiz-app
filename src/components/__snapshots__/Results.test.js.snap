@@ -15,7 +15,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
     <h1
       className="MuiTypography-root-10 MuiTypography-headline-15 MuiTypography-gutterBottom-27 MuiTypography-alignCenter-23"
     >
-      4 of 10
+      0 of 10
     </h1>
   </div>
   <div
@@ -32,7 +32,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         viewBox="0 0 24 24"
       >
         <path
-          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          d="M19 13H5v-2h14v2z"
         />
         <path
           d="M0 0h24v24H0z"
@@ -45,7 +45,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         <aside
           className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
         >
-          This is the correct spelling of "Supercalifragilisticexpialidocious".
+          This is the correct spelling of &quot;Supercalifragilisticexpialidocious&quot;.
         </aside>
       </div>
     </div>
@@ -73,35 +73,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         <aside
           className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
         >
-          Joseph Stalin's real name was Ioseb Bessarionis dze Dzugashvili.
-        </aside>
-      </div>
-    </div>
-    <div
-      className="Results-resultRow-4"
-    >
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
-        color={undefined}
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
-        />
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-      </svg>
-      <div
-        className="Results-resultRowItemText-6"
-      >
-        <aside
-          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
-        >
-          In "Portal 2", Cave Johnson started out Aperture Science as a shower curtain company.
+          Joseph Stalin&#039;s real name was Ioseb Bessarionis dze Dzugashvili.
         </aside>
       </div>
     </div>
@@ -129,7 +101,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         <aside
           className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
         >
-          If you could fold a piece of paper in half 50 times, its' thickness will be 3/4th the distance from the Earth to the Sun.
+          In &quot;Portal 2&quot;, Cave Johnson started out Aperture Science as a shower curtain company.
         </aside>
       </div>
     </div>
@@ -157,7 +129,35 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         <aside
           className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
         >
-          "Cube", "Cube 2: Hypercube" and "Cube Zero" were directed by the same person.
+          If you could fold a piece of paper in half 50 times, its&#039; thickness will be 3/4th the distance from the Earth to the Sun.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13H5v-2h14v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          &quot;Cube&quot;, &quot;Cube 2: Hypercube&quot; and &quot;Cube Zero&quot; were directed by the same person.
         </aside>
       </div>
     </div>
@@ -200,7 +200,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         viewBox="0 0 24 24"
       >
         <path
-          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          d="M19 13H5v-2h14v2z"
         />
         <path
           d="M0 0h24v24H0z"
@@ -213,35 +213,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         <aside
           className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
         >
-          The Klingon home planet is Qo'noS.
-        </aside>
-      </div>
-    </div>
-    <div
-      className="Results-resultRow-4"
-    >
-      <svg
-        aria-hidden="true"
-        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
-        color={undefined}
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
-        />
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-      </svg>
-      <div
-        className="Results-resultRowItemText-6"
-      >
-        <aside
-          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
-        >
-          L'Hôpital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.
+          The Klingon home planet is Qo&#039;noS.
         </aside>
       </div>
     </div>
@@ -269,7 +241,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         <aside
           className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
         >
-          Pete Townshend's solo album, "White City: A Novel", is set in the metropolitan area of Chicago.
+          L&#039;H&ocirc;pital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.
         </aside>
       </div>
     </div>
@@ -297,7 +269,35 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         <aside
           className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
         >
-          Spoon theory is a theory, utilizing "Spoons" as a metaphor for energy they can use in a day.
+          Pete Townshend&#039;s solo album, &quot;White City: A Novel&quot;, is set in the metropolitan area of Chicago.
+        </aside>
+      </div>
+    </div>
+    <div
+      className="Results-resultRow-4"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-35 Results-resultRowItemIcon-5"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 13H5v-2h14v2z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="Results-resultRowItemText-6"
+      >
+        <aside
+          className="MuiTypography-root-10 MuiTypography-body2-18 MuiTypography-alignLeft-22"
+        >
+          Spoon theory is a theory, utilizing &quot;Spoons&quot; as a metaphor for energy they can use in a day.
         </aside>
       </div>
     </div>

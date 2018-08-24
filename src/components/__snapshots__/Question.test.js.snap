@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`<Question> renders 10 questions correctly 1`] = `
 <div
   className="Question-container-1"
 >
   <h1
     className="MuiTypography-root-5 MuiTypography-headline-10 MuiTypography-gutterBottom-22 MuiTypography-alignCenter-18"
   >
-    Category
+    General Knowledge
   </h1>
   <div
     className="Question-questionBox-2"
@@ -15,7 +15,7 @@ exports[`renders correctly 1`] = `
     <aside
       className="MuiTypography-root-5 MuiTypography-body2-13 MuiTypography-gutterBottom-22 MuiTypography-alignCenter-18"
     >
-      Question here... what is the queen of England's shoe size?
+      This is the correct spelling of &quot;Supercalifragilisticexpialidocious&quot;.
     </aside>
   </div>
   <div
@@ -25,6 +25,7 @@ exports[`renders correctly 1`] = `
       className="MuiButtonBase-root-56 MuiButton-root-30 MuiButton-contained-41 MuiButton-containedSecondary-43 MuiButton-raised-44 MuiButton-raisedSecondary-46 Question-button-4"
       disabled={false}
       onBlur={[Function]}
+      onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
@@ -50,6 +51,7 @@ exports[`renders correctly 1`] = `
       className="MuiButtonBase-root-56 MuiButton-root-30 MuiButton-contained-41 MuiButton-containedPrimary-42 MuiButton-raised-44 MuiButton-raisedPrimary-45 Question-button-4"
       disabled={false}
       onBlur={[Function]}
+      onClick={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
