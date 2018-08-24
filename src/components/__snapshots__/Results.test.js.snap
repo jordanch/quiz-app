@@ -15,7 +15,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
     <h1
       className="MuiTypography-root-10 MuiTypography-headline-15 MuiTypography-gutterBottom-27 MuiTypography-alignCenter-23"
     >
-      0 of 10
+      6 of 10
     </h1>
   </div>
   <div
@@ -32,7 +32,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         viewBox="0 0 24 24"
       >
         <path
-          d="M19 13H5v-2h14v2z"
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
         />
         <path
           d="M0 0h24v24H0z"
@@ -60,7 +60,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         viewBox="0 0 24 24"
       >
         <path
-          d="M19 13H5v-2h14v2z"
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
         />
         <path
           d="M0 0h24v24H0z"
@@ -172,7 +172,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         viewBox="0 0 24 24"
       >
         <path
-          d="M19 13H5v-2h14v2z"
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
         />
         <path
           d="M0 0h24v24H0z"
@@ -200,7 +200,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         viewBox="0 0 24 24"
       >
         <path
-          d="M19 13H5v-2h14v2z"
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
         />
         <path
           d="M0 0h24v24H0z"
@@ -256,7 +256,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         viewBox="0 0 24 24"
       >
         <path
-          d="M19 13H5v-2h14v2z"
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
         />
         <path
           d="M0 0h24v24H0z"
@@ -284,7 +284,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
         viewBox="0 0 24 24"
       >
         <path
-          d="M19 13H5v-2h14v2z"
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
         />
         <path
           d="M0 0h24v24H0z"

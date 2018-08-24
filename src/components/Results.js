@@ -64,6 +64,7 @@ const Results = (props) => {
       <div className={classes.results}>
         {quizEntities.map((quizEntity) => (
           <div className={classes.resultRow} key={quizEntity.appId}>
+
             {quizEntity.userAnswer === quizEntity.correctAnswer && (
               <Add className={classes.resultRowItemIcon} />
             )}
