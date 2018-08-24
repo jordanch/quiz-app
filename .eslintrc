@@ -11,6 +11,11 @@
   "globals": {
     "it": true,
     "expect": true,
-    "document": true
+    "document": true,
+    "fetch": true,
+    "console": true
+  },
+  "rules": {
+    "no-console": "off"
   }
 }
