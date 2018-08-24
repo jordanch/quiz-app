@@ -19,12 +19,12 @@ const styles = (theme) => ({
     margin: theme.spacing.unit
   },
   buttonLink: {
-      textDecoration: 'none'
+    textDecoration: "none"
   }
 })
 
 const Start = (props) => {
-  const { classes } = props
+  const { classes, startQuiz } = props
 
   return (
     <div className={classes.container}>
@@ -41,7 +41,12 @@ const Start = (props) => {
       </Typography>
 
       <Link to="/quiz" className={classes.buttonLink}>
-        <Button variant="contained" color="primary" className={classes.button}>
+        <Button
+          variant="contained"
+          color="primary"
+          className={classes.button}
+          onClick={startQuiz}
+        >
           BEGIN
         </Button>
       </Link>
@@ -50,7 +55,8 @@ const Start = (props) => {
 }
 
 Start.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
+  startQuiz: PropTypes.func.isRequired
 }
 
 export default withStyles(styles)(Start)

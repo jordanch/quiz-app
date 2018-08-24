@@ -20,9 +20,9 @@ const styles = (theme) => ({
     padding: "20px 10px"
   },
   answerContainer: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-around'
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-around"
   },
   button: {
     margin: theme.spacing.unit
@@ -30,31 +30,65 @@ const styles = (theme) => ({
 })
 
 const Question = (props) => {
-  const { classes, question } = props
+  const {
+    classes,
+    quizEntities,
+    currentQuizEntityIndex,
+    answerQuizEntity,
+    cbAfterLastQuestion
+  } = props
+
+  // TODO: is this an efficient way of transitioning to /score route when last question answered?
+  // I'd like to get this logic out of this component. it has to know about /score and logic for last question
+  const quizEntitiesLength = quizEntities.length
+  const current = quizEntities[currentQuizEntityIndex]
+  const { category, question } = current
+
+  function shouldCallLastQuestionCb(currentIndex) {
+    if (currentIndex + 1 === quizEntitiesLength) {
+      cbAfterLastQuestion()
+    }
+  }
 
   return (
     <div className={classes.container}>
       <Typography variant="headline" gutterBottom align="center">
-        {"Category"}
+        {category}
       </Typography>
 
       <div className={classes.questionBox}>
         <Typography variant="body2" gutterBottom align="center">
-          {"Question here... what is the queen of England's shoe size?"}
+          {question}
         </Typography>
       </div>
 
       <div className={classes.answerContainer}>
-        <Button variant="contained" color="secondary" className={classes.button}>
+        <Button
+          variant="contained"
+          color="secondary"
+          className={classes.button}
+          onClick={() => {
+            answerQuizEntity(currentQuizEntityIndex, false)
+            shouldCallLastQuestionCb(currentQuizEntityIndex)
+          }}
+        >
           FALSE
         </Button>
-        <Button variant="contained" color="primary" className={classes.button}>
+        <Button
+          variant="contained"
+          color="primary"
+          className={classes.button}
+          onClick={() => {
+            answerQuizEntity(currentQuizEntityIndex, true)
+            shouldCallLastQuestionCb(currentQuizEntityIndex)
+          }}
+        >
           TRUE
         </Button>
       </div>
 
       <Typography variant="body2" gutterBottom align="center">
-        {"1 of 10"}
+        {`${currentQuizEntityIndex + 1} of ${quizEntitiesLength}`}
       </Typography>
     </div>
   )
@@ -62,7 +96,11 @@ const Question = (props) => {
 
 Question.propTypes = {
   classes: PropTypes.object.isRequired,
-  questions: PropTypes.object.isRequired
+  // TODO: add shape of quizEntity.
+  quizEntities: PropTypes.array.isRequired,
+  currentQuizEntityIndex: PropTypes.number.isRequired,
+  answerQuizEntity: PropTypes.func.isRequired,
+  cbAfterLastQuestion: PropTypes.func.isRequired
 }
 
 export default withStyles(styles)(Question)
