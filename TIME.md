@@ -7,6 +7,7 @@
 + 2 hrs
 + 45min
 + 45min
++1.5hrs
 - add static screens
 - add some basic routing
 - add redux containers
@@ -14,6 +15,7 @@
 - happy flow working
 - add unit test for App
 - add snapshot test for Question, Results
+- add some ui features. wip: route protection.
 
 ## Upskilling
 
