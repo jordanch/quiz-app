@@ -16,7 +16,13 @@
     "console": true,
     "process": true,
     "describe": true,
-    "window": true
+    "window": true,
+    "beforeEach": true,
+    "context": true,
+    "cy": true,
+    "Cypress": true,
+    "assert": true,
+    "module": true
   },
   "rules": {
     "no-console": "off"
