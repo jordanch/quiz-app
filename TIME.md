@@ -13,6 +13,7 @@
 + 25m
 + 25m
 + 25m
++ 25m
 - add static screens
 - add some basic routing
 - add redux containers
@@ -24,6 +25,7 @@
 - add route guards (redirects based on state) & HOC <start> wrapper for data setup.
 - buff up tests
 - add cypress
+- clean up
 
 ## Upskilling
 
