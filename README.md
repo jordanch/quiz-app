@@ -27,4 +27,12 @@ See REQUIREMENTS.md for a basic understanding (was created for me to flesh out r
 
 - Unfortinately Cypress does not work well with window.fetch. Due to this the cypress tests include wait() calls.
 - There is no error handling for the API request. The code and UI should handle network or server error properly.
-
+- There are some hard assumptions in the code, such as that there will always be 10 question-answer pairs.
+- Route guarding (logic around when the user should be redirected) could be improved
+- Testing is limited to
+    - snapshots of presentational components
+    - end-to-end testing of the application
+- Testing could improve if the following were tested:
+    - State management and reducers
+    - Improve end-to-end tests with mock data that can be asserted
+- The app could benefit from further styling to make it more "productised"
