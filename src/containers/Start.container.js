@@ -6,38 +6,44 @@ import { fetchQuizData } from "../actions/quiz_entities.actions"
 import PropTypes from "prop-types"
 
 class StartWrapperForDataSetup extends Component {
-  constructor(props) {
-    super(props)
-  }
+	constructor(props) {
+		super(props)
+	}
 
-  componentDidMount() {
-    const { store } = this.props
-		store.dispatch(fetchQuizData())
-  }
+	componentDidMount() {
+		const { fetchApiData } = this.props
+		fetchApiData()
+	}
 
-  render() {
-    return <Start {...this.props}/>
-  }
-
+	render() {
+		return <Start {...this.props} />
+	}
 }
 
 StartWrapperForDataSetup.propTypes = {
-  store: PropTypes.object.isRequired,
-  startQuiz: PropTypes.func.isRequired
+  startQuiz: PropTypes.func.isRequired,
+  quizEntities: PropTypes.array.isRequired,
+  fetchApiData: PropTypes.func.isRequired,
+  isFetchingData: PropTypes.bool.isRequired
+}
+
+const mapStateToProps = (state) => {
+	return {
+    quizEntities: state.quizEntities,
+    isFetchingData: state.isFetchingData
+	}
 }
 
 const mapDispatchToProps = (dispatch) => {
-  return {
-    startQuiz: () => {
-      dispatch(startQuiz())
-    }
-  }
+	return {
+		startQuiz: () => dispatch(startQuiz()),
+    fetchApiData: () => dispatch(fetchQuizData())
+	}
 }
 
-const StartContainer = connect(null, mapDispatchToProps)(StartWrapperForDataSetup)
-
-StartContainer.propTypes = {
-	store: PropTypes.object.isRequired
-}
+const StartContainer = connect(
+	mapStateToProps,
+	mapDispatchToProps
+)(StartWrapperForDataSetup)
 
 export default StartContainer

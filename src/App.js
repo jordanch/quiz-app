@@ -23,7 +23,7 @@ function App(props) {
 							<Route
 								path="/"
 								exact={true}
-								render={() => <StartContainer store={store} />}
+								component={StartContainer}
 							/>
 							<Route
 								path="/quiz"
