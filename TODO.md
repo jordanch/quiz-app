@@ -5,3 +5,5 @@
 - rename all files to common naming scheme: .container / .container / .reducer / etc.
 
 - app entry management. if the user access /score first, direct to /
+
+- should route protection logic reside in presentational components? where is a better place?

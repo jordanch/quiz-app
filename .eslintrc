@@ -15,7 +15,8 @@
     "fetch": true,
     "console": true,
     "process": true,
-    "describe": true
+    "describe": true,
+    "window": true
   },
   "rules": {
     "no-console": "off"
