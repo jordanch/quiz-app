@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Question> renders 10 questions correctly 1`] = `
+exports[`<Question> renders 1 out of 10 questions correctly 1`] = `
 <div
   className="Question-container-1"
 >

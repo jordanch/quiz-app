@@ -3,7 +3,6 @@ import QuestionContainer from "./containers/Question.container"
 import ResultsContainer from "./containers/Results.container"
 import StartContainer from "./containers/Start.container"
 import {
-	BrowserRouter as Router,
 	Route,
 	Switch,
 	Redirect
@@ -16,7 +15,6 @@ function App(props) {
 	const { store } = props
 	return (
 		<Provider store={store}>
-			<Router>
 				<div className="app">
 					<div className="screen-container">
 						<Switch>
@@ -51,7 +49,6 @@ function App(props) {
 						</Switch>
 					</div>
 				</div>
-			</Router>
 		</Provider>
 	)
 }

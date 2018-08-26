@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Start> renders correctly while waiting for quiz data from api 1`] = `
+<div
+  className="Start-container-1"
+>
+  <h1
+    className="MuiTypography-root-4 MuiTypography-headline-9 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+  >
+    Welcome to the Trivia Challenge!
+  </h1>
+  <aside
+    className="MuiTypography-root-4 MuiTypography-body2-12 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+  >
+    You will be presented with 10 True or False questions.
+  </aside>
+  <aside
+    className="MuiTypography-root-4 MuiTypography-body2-12 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+  >
+    Can you score 100%?
+  </aside>
+  <a
+    className="Start-buttonLink-3"
+    href="/quiz"
+    onClick={[Function]}
+  >
+    <button
+      className="MuiButtonBase-root-55 MuiButtonBase-disabled-56 MuiButton-root-29 MuiButton-contained-40 MuiButton-containedPrimary-41 MuiButton-raised-43 MuiButton-raisedPrimary-44 MuiButton-disabled-49 Start-button-2"
+      disabled={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="-1"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-30"
+      >
+        <span>
+          Loading...
+        </span>
+      </span>
+    </button>
+  </a>
+</div>
+`;
+
+exports[`<Start> renders correctly with quiz data from api 1`] = `
+<div
+  className="Start-container-1"
+>
+  <h1
+    className="MuiTypography-root-4 MuiTypography-headline-9 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+  >
+    Welcome to the Trivia Challenge!
+  </h1>
+  <aside
+    className="MuiTypography-root-4 MuiTypography-body2-12 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+  >
+    You will be presented with 10 True or False questions.
+  </aside>
+  <aside
+    className="MuiTypography-root-4 MuiTypography-body2-12 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+  >
+    Can you score 100%?
+  </aside>
+  <a
+    className="Start-buttonLink-3"
+    href="/quiz"
+    onClick={[Function]}
+  >
+    <button
+      className="MuiButtonBase-root-55 MuiButton-root-29 MuiButton-contained-40 MuiButton-containedPrimary-41 MuiButton-raised-43 MuiButton-raisedPrimary-44 Start-button-2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-30"
+      >
+        <span>
+          BEGIN
+        </span>
+      </span>
+      <span
+        className="MuiTouchRipple-root-58"
+      />
+    </button>
+  </a>
+</div>
+`;

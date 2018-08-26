@@ -21,23 +21,23 @@ class StartWrapperForDataSetup extends Component {
 }
 
 StartWrapperForDataSetup.propTypes = {
-  startQuiz: PropTypes.func.isRequired,
-  quizEntities: PropTypes.array.isRequired,
-  fetchApiData: PropTypes.func.isRequired,
-  isFetchingData: PropTypes.bool.isRequired
+	startQuiz: PropTypes.func.isRequired,
+	quizEntities: PropTypes.array.isRequired,
+	fetchApiData: PropTypes.func.isRequired,
+	isFetchingData: PropTypes.bool.isRequired
 }
 
 const mapStateToProps = (state) => {
 	return {
-    quizEntities: state.quizEntities,
-    isFetchingData: state.isFetchingData
+		quizEntities: state.quizEntities,
+		isFetchingData: state.isFetchingData
 	}
 }
 
 const mapDispatchToProps = (dispatch) => {
 	return {
 		startQuiz: () => dispatch(startQuiz()),
-    fetchApiData: () => dispatch(fetchQuizData())
+		fetchApiData: () => dispatch(fetchQuizData())
 	}
 }
 

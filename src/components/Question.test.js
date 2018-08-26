@@ -4,7 +4,7 @@ import renderer from "react-test-renderer"
 import jestMock from "jest-mock"
 
 describe("<Question>", () => {
-  it("renders 10 questions correctly", () => {
+  it("renders 1 out of 10 questions correctly", () => {
     const quizEntities = [
       {
         category: "General Knowledge",
