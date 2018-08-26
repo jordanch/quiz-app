@@ -1,5 +1,10 @@
 {
   "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "ecmaFeatures": {},
+  "env": {
+    "es6": true
+  },
+
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -22,7 +27,8 @@
     "cy": true,
     "Cypress": true,
     "assert": true,
-    "module": true
+    "module": true,
+    "XMLHttpRequest": true
   },
   "rules": {
     "no-console": "off"

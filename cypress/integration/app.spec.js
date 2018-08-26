@@ -1,19 +1,10 @@
 /// <reference types="Cypress" />
 
-/* TODO:
- some ideas to get around unsupported fetch:
-
- either change fetch to a polyfil that utilises XHR under the hood to take advantage of cypress stubbing.
-
- *or*
-
- during testing route requests to a node express server that responds with mock data
-
- for now this is okay me thinks.
-*/
-
 context("App", () => {
-	beforeEach(() => {
+
+    beforeEach(() => {
+        cy.server()
+        cy.route("https://opentdb.com/*").as("getData")
 		cy.visit("http://localhost:3000")
 	})
 
@@ -33,72 +24,119 @@ context("App", () => {
 	})
 
 	it("Shows BEGIN button when data has been received", () => {
-        // unfortuntely cypress doesn't support fetch api.
-        // https://github.com/cypress-io/cypress/issues/95
-        // for now, wait awhile...
-        cy.wait(2500)
+		cy.wait("@getData")
 		cy.get("button")
 			.should("contain", "BEGIN")
 			.should("not.have.attr", "disabled")
-    })
+	})
 
 	it("Handles Start Quiz action by going to /quiz route", () => {
-        // unfortuntely cypress doesn't support fetch api.
-        // https://github.com/cypress-io/cypress/issues/95
-        // for now, wait awhile...
-        cy.wait(2500)
-		cy.get("button")
-            .click()
-        cy.location().should((loc) => {
-            expect(loc.pathname).to.eq('/quiz')
-        })
-    })
+		cy.wait("@getData")
+		cy.get("button").click()
+		cy.location().should((loc) => {
+			expect(loc.pathname).to.eq("/quiz")
+		})
+	})
 
 	it("Handles answering all question and going to /score page", () => {
-        // unfortuntely cypress doesn't support fetch api.
-        // https://github.com/cypress-io/cypress/issues/95
-        // for now, wait awhile...
-        cy.wait(2500)
-		cy.get("button")
-            .click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
+		cy.wait("@getData")
+		cy.get("button").click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
 
-        cy.location().should((loc) => {
-            expect(loc.pathname).to.eq('/score')
-        })
-    })
+		cy.location().should((loc) => {
+			expect(loc.pathname).to.eq("/score")
+		})
+	})
 
 	it("Handles starting a quiz from /score", () => {
-        // unfortuntely cypress doesn't support fetch api.
-        // https://github.com/cypress-io/cypress/issues/95
-        // for now, wait awhile...
-        cy.wait(2500)
+		cy.wait("@getData")
+		cy.get("button").click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("FALSE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+		cy.get(".screen-container")
+			.find("button")
+			.contains("TRUE")
+			.click()
+
 		cy.get("button")
-            .click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('FALSE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
-        cy.get('.screen-container').find('button').contains('TRUE').click()
+			.contains("PLAY AGAIN?")
+			.click()
 
-        cy.get('button').contains('PLAY AGAIN?').click()
-
-        cy.location().should((loc) => {
-            expect(loc.pathname).to.eq('/')
-        })
+		cy.location().should((loc) => {
+			expect(loc.pathname).to.eq("/")
+		})
 	})
 })
