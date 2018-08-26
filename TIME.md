@@ -7,7 +7,8 @@
 + 2 hrs
 + 45min
 + 45min
-+1.5hrs
++ 1.5hrs
++ 20min
 - add static screens
 - add some basic routing
 - add redux containers
@@ -16,6 +17,7 @@
 - add unit test for App
 - add snapshot test for Question, Results
 - add some ui features. wip: route protection.
+- add route guards (redirects based on state) & HOC <start> wrapper for data setup.
 
 ## Upskilling
 
