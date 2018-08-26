@@ -36,14 +36,6 @@ Start screen --> Question 1. screen ... Question 10. screen -->  Results screen.
 
 3 screens are required.
 
-### State
-
-Onload:
-
-- fetch trivia question-answer data.
-- build mobx store
-- Render start screen.
-
 
 
 

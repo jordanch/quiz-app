@@ -1,4 +1,3 @@
-// import { combineReducers } from 'redux'
 import {
   REQUEST_QUIZ_DATA,
   RECEIVE_QUIZ_DATA,
@@ -13,7 +12,6 @@ const INITIAL_STATE = {
   currentQuizEntityIndex: null
 }
 
-// TODO: error actions + reducers.
 function quizEntities(state = INITIAL_STATE, action) {
   switch (action.type) {
     case REQUEST_QUIZ_DATA:

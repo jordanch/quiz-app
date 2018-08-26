@@ -21,4 +21,10 @@ The code and functionality will be assessed on the following criteria:
 
 # What needs developing?
 
-See REQUIREMENTS.md
+See REQUIREMENTS.md for a basic understanding (was created for me to flesh out requirements)
+
+# What is missing / can be impproved?
+
+- Unfortinately Cypress does not work well with window.fetch. Due to this the cypress tests include wait() calls.
+- There is no error handling for the API request. The code and UI should handle network or server error properly.
+

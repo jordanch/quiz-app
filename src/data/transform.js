@@ -4,13 +4,12 @@ const entities = new AllHtmlEntities()
 
 /**
  * Strip out the fluff not needed for now.
- * Work with JS objects instead of JSON.
- * Rename properties to camelCase.
- * Set correct answers to boolean data type.
- * Decode HTML entities like &quot; etc.
+ * 1. Parse to JS. 2. Rename props tocamelCase.
+ * 3. Set correctAnswers to boolean data type.
+ * 4. Decode HTML entities like &quot; etc.
  *
  * @export
- * @param {*} data
+ * @param {array} data
  * @returns
  */
 export function handleApiData(data) {
@@ -28,8 +27,8 @@ export function handleApiData(data) {
  * Source: https://stackoverflow.com/questions/7616461/generate-a-hash-from-string-in-javascript
  * Hash the question for a unique id, used internally by react.
  *
- * @param {*} str
- * @returns
+ * @param {string} str
+ * @returns {number}
  */
 function hashCode(str) {
   return str

@@ -7,13 +7,13 @@ import PropTypes from "prop-types"
 import { Link } from "react-router-dom"
 import Add from "@material-ui/icons/Add"
 import Remove from "@material-ui/icons/Remove"
-import { isUserCorrect } from "../util/quizEntity"
+import { isUserCorrect } from "../util/quiz_entity"
 
 const styles = (theme) => ({
 	container: {
 		width: "100%",
 		height: "100%",
-		backgroundColor: "pink",
+		backgroundColor: "white",
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
@@ -27,6 +27,7 @@ const styles = (theme) => ({
 		overflowY: "scroll"
 	},
 	resultRow: {
+    margin: "20px 0",
 		padding: "10px 0",
 		"&:first-child": {
 			marginTop: "20px"
