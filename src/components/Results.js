@@ -5,8 +5,8 @@ import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
 import PropTypes from "prop-types"
 import { Link } from "react-router-dom"
-import Add from "@material-ui/icons/Add"
-import Remove from "@material-ui/icons/Remove"
+import Done from "@material-ui/icons/Done"
+import Clear from "@material-ui/icons/Clear"
 import Card from '@material-ui/core/Card';
 import { isUserCorrect } from "../util/quiz_entity"
 
@@ -98,11 +98,11 @@ const Results = (props) => {
 						>
 							<div className={classes.resultRowAnswer}>
 								{quizEntity.userAnswer === quizEntity.correctAnswer && (
-									<Add className={classNames(classes.resultRowItemIcon, classes.resultsRowItemIconCorrect)}/>
+									<Done className={classNames(classes.resultRowItemIcon, classes.resultsRowItemIconCorrect)}/>
 								)}
 
 								{quizEntity.userAnswer !== quizEntity.correctAnswer && (
-									<Remove className={classNames(classes.resultRowItemIcon, classes.resultsRowItemIconIncorrect)} />
+									<Clear className={classNames(classes.resultRowItemIcon, classes.resultsRowItemIconIncorrect)} />
 								)}
 
 								<div className={classes.resultRowItemText}>
