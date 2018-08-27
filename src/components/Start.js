@@ -2,7 +2,7 @@ import React from "react"
 import Typography from "@material-ui/core/Typography"
 import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
-import Card from '@material-ui/core/Card';
+import Card from "@material-ui/core/Card"
 import PropTypes from "prop-types"
 import { Link } from "react-router-dom"
 
@@ -46,8 +46,8 @@ const Start = (props) => {
 					variant="contained"
 					color="primary"
 					className={classes.button}
-          onClick={startQuiz}
-          disabled={isFetchingData}
+					onClick={startQuiz}
+					disabled={isFetchingData}
 				>
 					{!isFetchingData && quizEntities.length > 0 && <span>BEGIN</span>}
 					{isFetchingData && <span>Loading...</span>}

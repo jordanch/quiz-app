@@ -1,3 +1,3 @@
 export function isUserCorrect(quizEntity) {
-  return quizEntity.userAnswer === quizEntity.correctAnswer
+	return quizEntity.userAnswer === quizEntity.correctAnswer
 }

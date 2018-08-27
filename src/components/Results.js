@@ -7,7 +7,7 @@ import PropTypes from "prop-types"
 import { Link } from "react-router-dom"
 import Done from "@material-ui/icons/Done"
 import Clear from "@material-ui/icons/Clear"
-import Card from '@material-ui/core/Card';
+import Card from "@material-ui/core/Card"
 import { isUserCorrect } from "../util/quiz_entity"
 
 const styles = (theme) => ({
@@ -28,7 +28,7 @@ const styles = (theme) => ({
 		overflowY: "scroll"
 	},
 	resultRow: {
-    margin: "20px 0",
+		margin: "20px 0",
 		padding: "10px 0",
 		"&:first-child": {
 			marginTop: "20px"
@@ -47,16 +47,16 @@ const styles = (theme) => ({
 	},
 	resultRowItemIcon: {
 		flexBasis: "10%"
-  },
-  resultsRowItemIconCorrect: {
-    color: "green"
-  },
-  resultsRowItemIconIncorrect: {
-    color: "red"
-  },
+	},
+	resultsRowItemIconCorrect: {
+		color: "green"
+	},
+	resultsRowItemIconIncorrect: {
+		color: "red"
+	},
 	resultRowItemText: {
-    flexBasis: "90%",
-    padding: "0 20px"
+		flexBasis: "90%",
+		padding: "0 20px"
 	},
 	button: {
 		margin: theme.spacing.unit
@@ -92,17 +92,24 @@ const Results = (props) => {
 				{quizEntities.map((quizEntity) => {
 					const isUserAnswerCorrect = isUserCorrect(quizEntity)
 					return (
-						<Card
-							className={classes.resultRow}
-							key={quizEntity.appId}
-						>
+						<Card className={classes.resultRow} key={quizEntity.appId}>
 							<div className={classes.resultRowAnswer}>
 								{quizEntity.userAnswer === quizEntity.correctAnswer && (
-									<Done className={classNames(classes.resultRowItemIcon, classes.resultsRowItemIconCorrect)}/>
+									<Done
+										className={classNames(
+											classes.resultRowItemIcon,
+											classes.resultsRowItemIconCorrect
+										)}
+									/>
 								)}
 
 								{quizEntity.userAnswer !== quizEntity.correctAnswer && (
-									<Clear className={classNames(classes.resultRowItemIcon, classes.resultsRowItemIconIncorrect)} />
+									<Clear
+										className={classNames(
+											classes.resultRowItemIcon,
+											classes.resultsRowItemIconIncorrect
+										)}
+									/>
 								)}
 
 								<div className={classes.resultRowItemText}>

@@ -13,14 +13,14 @@ const entities = new AllHtmlEntities()
  * @returns
  */
 export function handleApiData(data) {
-  // TODO: handling unexpected input.
-  return data.results.map((quizEntry) => ({
-    category: quizEntry.category,
-    question: entities.decode(quizEntry.question),
-    correctAnswer: quizEntry.correct_answer === "True" ? true : false,
-    appId: hashCode(quizEntry.question),
-    userAnswer: null
-  }))
+	// TODO: handling unexpected input.
+	return data.results.map((quizEntry) => ({
+		category: quizEntry.category,
+		question: entities.decode(quizEntry.question),
+		correctAnswer: quizEntry.correct_answer === "True" ? true : false,
+		appId: hashCode(quizEntry.question),
+		userAnswer: null
+	}))
 }
 
 /**
@@ -31,11 +31,11 @@ export function handleApiData(data) {
  * @returns {number}
  */
 function hashCode(str) {
-  return str
-    .split("")
-    .reduce(
-      (prevHash, currVal) =>
-        ((prevHash << 5) - prevHash + currVal.charCodeAt(0)) | 0,
-      0
-    )
+	return str
+		.split("")
+		.reduce(
+			(prevHash, currVal) =>
+				((prevHash << 5) - prevHash + currVal.charCodeAt(0)) | 0,
+			0
+		)
 }
