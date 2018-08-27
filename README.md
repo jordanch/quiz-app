@@ -36,3 +36,28 @@ See REQUIREMENTS.md for a basic understanding (was created for me to flesh out r
     - State management and reducers
     - Improve end-to-end tests with mock data that can be asserted
 - The app could benefit from further styling to make it more "productised"; some styles are in stylesheets and some are taking advantage of material-ui's withStyles utility which injects into <head>. With more time I'd like to use styled-components across the board, to contain style and behaviour.
+
+# Setup
+
+Note: Developed and tested using Node.js v8.11.1 and NPM v5.6.0 - please use the same versions.
+
+## Install dependencies
+
+1. `cd` into root dir
+2. `npm install`
+
+To run development build:
+
+1.  `npm run start` to run development build
+
+Or run production build:
+
+1.  `npm run build` to build for production
+2. `cd build`
+3. Serve files with webserver from here. I like to use serve. `npm i -g serve` then `serve .`
+
+# Tested on
+
+- Chrome v68 on Mac
+- Chrome v68 on iPhone 6
+
