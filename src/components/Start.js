@@ -2,6 +2,7 @@ import React from "react"
 import Typography from "@material-ui/core/Typography"
 import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
+import Card from '@material-ui/core/Card';
 import PropTypes from "prop-types"
 import { Link } from "react-router-dom"
 
@@ -27,7 +28,7 @@ const Start = (props) => {
 	const { classes, startQuiz, quizEntities, isFetchingData } = props
 
 	return (
-		<div className={classes.container}>
+		<Card className={classes.container}>
 			<Typography variant="headline" gutterBottom align="center">
 				Welcome to the Trivia Challenge!
 			</Typography>
@@ -52,7 +53,7 @@ const Start = (props) => {
 					{isFetchingData && <span>Loading...</span>}
 				</Button>
 			</Link>
-		</div>
+		</Card>
 	)
 }
 

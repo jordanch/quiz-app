@@ -35,4 +35,4 @@ See REQUIREMENTS.md for a basic understanding (was created for me to flesh out r
 - Testing could improve if the following were tested:
     - State management and reducers
     - Improve end-to-end tests with mock data that can be asserted
-- The app could benefit from further styling to make it more "productised"
+- The app could benefit from further styling to make it more "productised"; some styles are in stylesheets and some are taking advantage of material-ui's withStyles utility which injects into <head>. With more time I'd like to use styled-components across the board, to contain style and behaviour.

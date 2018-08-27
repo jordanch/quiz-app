@@ -2,20 +2,20 @@
 
 exports[`<Start> renders correctly while waiting for quiz data from api 1`] = `
 <div
-  className="Start-container-1"
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 Start-container-1"
 >
   <h1
-    className="MuiTypography-root-4 MuiTypography-headline-9 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+    className="MuiTypography-root-32 MuiTypography-headline-37 MuiTypography-gutterBottom-49 MuiTypography-alignCenter-45"
   >
     Welcome to the Trivia Challenge!
   </h1>
   <aside
-    className="MuiTypography-root-4 MuiTypography-body2-12 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+    className="MuiTypography-root-32 MuiTypography-body2-40 MuiTypography-gutterBottom-49 MuiTypography-alignCenter-45"
   >
     You will be presented with 10 True or False questions.
   </aside>
   <aside
-    className="MuiTypography-root-4 MuiTypography-body2-12 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+    className="MuiTypography-root-32 MuiTypography-body2-40 MuiTypography-gutterBottom-49 MuiTypography-alignCenter-45"
   >
     Can you score 100%?
   </aside>
@@ -25,7 +25,7 @@ exports[`<Start> renders correctly while waiting for quiz data from api 1`] = `
     onClick={[Function]}
   >
     <button
-      className="MuiButtonBase-root-55 MuiButtonBase-disabled-56 MuiButton-root-29 MuiButton-contained-40 MuiButton-containedPrimary-41 MuiButton-raised-43 MuiButton-raisedPrimary-44 MuiButton-disabled-49 Start-button-2"
+      className="MuiButtonBase-root-83 MuiButtonBase-disabled-84 MuiButton-root-57 MuiButton-contained-68 MuiButton-containedPrimary-69 MuiButton-raised-71 MuiButton-raisedPrimary-72 MuiButton-disabled-77 Start-button-2"
       disabled={true}
       onBlur={[Function]}
       onClick={[Function]}
@@ -42,7 +42,7 @@ exports[`<Start> renders correctly while waiting for quiz data from api 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label-30"
+        className="MuiButton-label-58"
       >
         <span>
           Loading...
@@ -55,20 +55,20 @@ exports[`<Start> renders correctly while waiting for quiz data from api 1`] = `
 
 exports[`<Start> renders correctly with quiz data from api 1`] = `
 <div
-  className="Start-container-1"
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 Start-container-1"
 >
   <h1
-    className="MuiTypography-root-4 MuiTypography-headline-9 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+    className="MuiTypography-root-32 MuiTypography-headline-37 MuiTypography-gutterBottom-49 MuiTypography-alignCenter-45"
   >
     Welcome to the Trivia Challenge!
   </h1>
   <aside
-    className="MuiTypography-root-4 MuiTypography-body2-12 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+    className="MuiTypography-root-32 MuiTypography-body2-40 MuiTypography-gutterBottom-49 MuiTypography-alignCenter-45"
   >
     You will be presented with 10 True or False questions.
   </aside>
   <aside
-    className="MuiTypography-root-4 MuiTypography-body2-12 MuiTypography-gutterBottom-21 MuiTypography-alignCenter-17"
+    className="MuiTypography-root-32 MuiTypography-body2-40 MuiTypography-gutterBottom-49 MuiTypography-alignCenter-45"
   >
     Can you score 100%?
   </aside>
@@ -78,7 +78,7 @@ exports[`<Start> renders correctly with quiz data from api 1`] = `
     onClick={[Function]}
   >
     <button
-      className="MuiButtonBase-root-55 MuiButton-root-29 MuiButton-contained-40 MuiButton-containedPrimary-41 MuiButton-raised-43 MuiButton-raisedPrimary-44 Start-button-2"
+      className="MuiButtonBase-root-83 MuiButton-root-57 MuiButton-contained-68 MuiButton-containedPrimary-69 MuiButton-raised-71 MuiButton-raisedPrimary-72 Start-button-2"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -95,14 +95,14 @@ exports[`<Start> renders correctly with quiz data from api 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label-30"
+        className="MuiButton-label-58"
       >
         <span>
           BEGIN
         </span>
       </span>
       <span
-        className="MuiTouchRipple-root-58"
+        className="MuiTouchRipple-root-86"
       />
     </button>
   </a>

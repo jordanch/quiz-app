@@ -22,14 +22,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
     className="Results-results-3"
   >
     <div
-      className="Results-resultRow-4 Results-resultsRowCorrect-5"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconCorrect-8"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -46,14 +46,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowCorrect-5"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             This is the correct spelling of &quot;Supercalifragilisticexpialidocious&quot;.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -66,14 +66,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowCorrect-5"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconCorrect-8"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -90,14 +90,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowCorrect-5"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             Joseph Stalin&#039;s real name was Ioseb Bessarionis dze Dzugashvili.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -110,14 +110,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowIncorrect-6"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconIncorrect-9"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -134,14 +134,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowIncorrect-6"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             In &quot;Portal 2&quot;, Cave Johnson started out Aperture Science as a shower curtain company.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -154,14 +154,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowIncorrect-6"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconIncorrect-9"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -178,14 +178,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowIncorrect-6"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             If you could fold a piece of paper in half 50 times, its&#039; thickness will be 3/4th the distance from the Earth to the Sun.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -198,14 +198,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowIncorrect-6"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconIncorrect-9"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -222,14 +222,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowIncorrect-6"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             &quot;Cube&quot;, &quot;Cube 2: Hypercube&quot; and &quot;Cube Zero&quot; were directed by the same person.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -242,14 +242,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowCorrect-5"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconCorrect-8"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -266,14 +266,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowCorrect-5"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             Harry Potter was born on July 31st, 1980.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -286,14 +286,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowCorrect-5"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconCorrect-8"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -310,14 +310,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowCorrect-5"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             The Klingon home planet is Qo&#039;noS.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -330,14 +330,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowIncorrect-6"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconIncorrect-9"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -354,14 +354,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowIncorrect-6"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             L&#039;H&ocirc;pital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -374,14 +374,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowCorrect-5"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconCorrect-8"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -398,14 +398,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowCorrect-5"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             Pete Townshend&#039;s solo album, &quot;White City: A Novel&quot;, is set in the metropolitan area of Chicago.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -418,14 +418,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       </div>
     </div>
     <div
-      className="Results-resultRow-4 Results-resultsRowCorrect-5"
+      className="MuiPaper-root-40 MuiPaper-elevation1-43 MuiPaper-rounded-41 MuiCard-root-39 Results-resultRow-4"
     >
       <div
-        className="Results-resultRowAnswer-7"
+        className="Results-resultRowAnswer-5"
       >
         <svg
           aria-hidden="true"
-          className="MuiSvgIcon-root-39 Results-resultRowItemIcon-9"
+          className="MuiSvgIcon-root-67 Results-resultRowItemIcon-7 Results-resultsRowItemIconCorrect-8"
           color={undefined}
           focusable="false"
           viewBox="0 0 24 24"
@@ -442,14 +442,14 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
           className="Results-resultRowItemText-10"
         >
           <aside
-            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26 Results-resultsRowCorrect-5"
+            className="MuiTypography-root-14 MuiTypography-body2-22 MuiTypography-alignLeft-26"
           >
             Spoon theory is a theory, utilizing &quot;Spoons&quot; as a metaphor for energy they can use in a day.
           </aside>
         </div>
       </div>
       <div
-        className="Results-resultRowAnswerDetails-8"
+        className="Results-resultRowAnswerDetails-6"
       >
         <div>
           Your answer: 
@@ -468,7 +468,7 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
     onClick={[Function]}
   >
     <button
-      className="MuiButtonBase-root-72 MuiButton-root-46 MuiButton-contained-57 MuiButton-containedPrimary-58 MuiButton-raised-60 MuiButton-raisedPrimary-61 Results-button-11"
+      className="MuiButtonBase-root-100 MuiButton-root-74 MuiButton-contained-85 MuiButton-containedPrimary-86 MuiButton-raised-88 MuiButton-raisedPrimary-89 Results-button-11"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -484,12 +484,12 @@ exports[`renders 10 quiz entities correct with some right and some wrong 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label-47"
+        className="MuiButton-label-75"
       >
         PLAY AGAIN?
       </span>
       <span
-        className="MuiTouchRipple-root-75"
+        className="MuiTouchRipple-root-103"
       />
     </button>
   </a>

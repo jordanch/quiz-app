@@ -2,10 +2,10 @@
 
 exports[`<Question> renders 1 out of 10 questions correctly 1`] = `
 <div
-  className="Question-container-1"
+  className="MuiPaper-root-6 MuiPaper-elevation1-9 MuiPaper-rounded-7 MuiCard-root-5 Question-container-1"
 >
   <h1
-    className="MuiTypography-root-5 MuiTypography-headline-10 MuiTypography-gutterBottom-22 MuiTypography-alignCenter-18"
+    className="MuiTypography-root-33 MuiTypography-headline-38 MuiTypography-gutterBottom-50 MuiTypography-alignCenter-46"
   >
     General Knowledge
   </h1>
@@ -13,7 +13,7 @@ exports[`<Question> renders 1 out of 10 questions correctly 1`] = `
     className="Question-questionBox-2"
   >
     <aside
-      className="MuiTypography-root-5 MuiTypography-body2-13 MuiTypography-gutterBottom-22 MuiTypography-alignCenter-18"
+      className="MuiTypography-root-33 MuiTypography-body2-41 MuiTypography-gutterBottom-50 MuiTypography-alignCenter-46"
     >
       This is the correct spelling of &quot;Supercalifragilisticexpialidocious&quot;.
     </aside>
@@ -22,7 +22,7 @@ exports[`<Question> renders 1 out of 10 questions correctly 1`] = `
     className="Question-answerContainer-3"
   >
     <button
-      className="MuiButtonBase-root-56 MuiButton-root-30 MuiButton-contained-41 MuiButton-containedSecondary-43 MuiButton-raised-44 MuiButton-raisedSecondary-46 Question-button-4"
+      className="MuiButtonBase-root-84 MuiButton-root-58 MuiButton-contained-69 MuiButton-containedSecondary-71 MuiButton-raised-72 MuiButton-raisedSecondary-74 Question-button-4"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -39,16 +39,16 @@ exports[`<Question> renders 1 out of 10 questions correctly 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label-31"
+        className="MuiButton-label-59"
       >
         FALSE
       </span>
       <span
-        className="MuiTouchRipple-root-59"
+        className="MuiTouchRipple-root-87"
       />
     </button>
     <button
-      className="MuiButtonBase-root-56 MuiButton-root-30 MuiButton-contained-41 MuiButton-containedPrimary-42 MuiButton-raised-44 MuiButton-raisedPrimary-45 Question-button-4"
+      className="MuiButtonBase-root-84 MuiButton-root-58 MuiButton-contained-69 MuiButton-containedPrimary-70 MuiButton-raised-72 MuiButton-raisedPrimary-73 Question-button-4"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -65,17 +65,17 @@ exports[`<Question> renders 1 out of 10 questions correctly 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label-31"
+        className="MuiButton-label-59"
       >
         TRUE
       </span>
       <span
-        className="MuiTouchRipple-root-59"
+        className="MuiTouchRipple-root-87"
       />
     </button>
   </div>
   <aside
-    className="MuiTypography-root-5 MuiTypography-body2-13 MuiTypography-gutterBottom-22 MuiTypography-alignCenter-18"
+    className="MuiTypography-root-33 MuiTypography-body2-41 MuiTypography-gutterBottom-50 MuiTypography-alignCenter-46"
   >
     1 of 10
   </aside>

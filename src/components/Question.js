@@ -2,6 +2,7 @@ import React from "react"
 import Typography from "@material-ui/core/Typography"
 import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
+import Card from '@material-ui/core/Card';
 import PropTypes from "prop-types"
 
 const styles = (theme) => ({
@@ -51,7 +52,7 @@ const Question = (props) => {
 	}
 
 	return (
-		<div className={classes.container}>
+		<Card className={classes.container}>
 			<Typography variant="headline" gutterBottom align="center">
 				{category}
 			</Typography>
@@ -90,7 +91,7 @@ const Question = (props) => {
 			<Typography variant="body2" gutterBottom align="center">
 				{`${currentQuizEntityIndex + 1} of ${quizEntitiesLength}`}
 			</Typography>
-		</div>
+		</Card>
 	)
 }
 

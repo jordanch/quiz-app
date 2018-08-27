@@ -7,6 +7,7 @@ import PropTypes from "prop-types"
 import { Link } from "react-router-dom"
 import Add from "@material-ui/icons/Add"
 import Remove from "@material-ui/icons/Remove"
+import Card from '@material-ui/core/Card';
 import { isUserCorrect } from "../util/quiz_entity"
 
 const styles = (theme) => ({
@@ -33,13 +34,6 @@ const styles = (theme) => ({
 			marginTop: "20px"
 		}
 	},
-	resultsRowCorrect: {
-		backgroundColor: "green",
-		color: "white"
-	},
-	resultsRowIncorrect: {
-		backgroundColor: "red"
-	},
 	resultRowAnswer: {
 		display: "flex",
 		alignItems: "center",
@@ -52,10 +46,17 @@ const styles = (theme) => ({
 		fontSize: "12px"
 	},
 	resultRowItemIcon: {
-		flexBasis: "20%"
-	},
+		flexBasis: "10%"
+  },
+  resultsRowItemIconCorrect: {
+    color: "green"
+  },
+  resultsRowItemIconIncorrect: {
+    color: "red"
+  },
 	resultRowItemText: {
-		flexBasis: "80%"
+    flexBasis: "90%",
+    padding: "0 20px"
 	},
 	button: {
 		margin: theme.spacing.unit
@@ -91,20 +92,17 @@ const Results = (props) => {
 				{quizEntities.map((quizEntity) => {
 					const isUserAnswerCorrect = isUserCorrect(quizEntity)
 					return (
-						<div
-							className={classNames(classes.resultRow, {
-								[classes.resultsRowCorrect]: isUserAnswerCorrect,
-								[classes.resultsRowIncorrect]: !isUserAnswerCorrect
-							})}
+						<Card
+							className={classes.resultRow}
 							key={quizEntity.appId}
 						>
 							<div className={classes.resultRowAnswer}>
 								{quizEntity.userAnswer === quizEntity.correctAnswer && (
-									<Add className={classes.resultRowItemIcon} />
+									<Add className={classNames(classes.resultRowItemIcon, classes.resultsRowItemIconCorrect)}/>
 								)}
 
 								{quizEntity.userAnswer !== quizEntity.correctAnswer && (
-									<Remove className={classes.resultRowItemIcon} />
+									<Remove className={classNames(classes.resultRowItemIcon, classes.resultsRowItemIconIncorrect)} />
 								)}
 
 								<div className={classes.resultRowItemText}>
@@ -126,7 +124,7 @@ const Results = (props) => {
 								<div>Your answer: {quizEntity.userAnswer.toString()}</div>
 								<div>Correct answer: {quizEntity.correctAnswer.toString()}</div>
 							</div>
-						</div>
+						</Card>
 					)
 				})}
 			</div>
