@@ -25,7 +25,6 @@ See REQUIREMENTS.md for a basic understanding (was created for me to flesh out r
 
 # What is missing / can be impproved?
 
-- Unfortinately Cypress does not work well with window.fetch. Due to this the cypress tests include wait() calls.
 - There is no error handling for the API request. The code and UI should handle network or server error properly.
 - There are some hard assumptions in the code, such as that there will always be 10 question-answer pairs.
 - Route guarding (logic around when the user should be redirected) could be improved
