@@ -14,6 +14,7 @@
 + 25m
 + 25m
 + 25m
++ 15m
 - add static screens
 - add some basic routing
 - add redux containers
@@ -26,6 +27,7 @@
 - buff up tests
 - add cypress
 - clean up
+- slight styling adjustments (cleaner)
 
 ## Upskilling
 
