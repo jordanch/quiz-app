@@ -2,7 +2,7 @@
 
 ## Development
 
-~ 3 hours
++ ~3 hours
 + 30m
 + 2 hrs
 + 45min
@@ -15,6 +15,7 @@
 + 25m
 + 25m
 + 15m
++ 20m
 - add static screens
 - add some basic routing
 - add redux containers
@@ -28,6 +29,8 @@
 - add cypress
 - clean up
 - slight styling adjustments (cleaner)
+- fix bug where user can click BEGIN multiple times and create multiple requests for data.
+
 
 ## Upskilling
 
@@ -36,3 +39,5 @@
 + 15m
 - jest snapshot testing
 - read up on installing cypress and how to write basic tests
+
+TOTAL TIME: ~13 hours

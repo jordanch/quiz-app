@@ -19,37 +19,31 @@ exports[`<Start> renders correctly while waiting for quiz data from api 1`] = `
   >
     Can you score 100%?
   </aside>
-  <a
-    className="Start-buttonLink-3"
-    href="/quiz"
+  <button
+    className="MuiButtonBase-root-83 MuiButtonBase-disabled-84 MuiButton-root-57 MuiButton-contained-68 MuiButton-containedPrimary-69 MuiButton-raised-71 MuiButton-raisedPrimary-72 MuiButton-disabled-77 Start-button-2"
+    disabled={true}
+    onBlur={[Function]}
     onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="-1"
+    type="button"
   >
-    <button
-      className="MuiButtonBase-root-83 MuiButtonBase-disabled-84 MuiButton-root-57 MuiButton-contained-68 MuiButton-containedPrimary-69 MuiButton-raised-71 MuiButton-raisedPrimary-72 MuiButton-disabled-77 Start-button-2"
-      disabled={true}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="-1"
-      type="button"
+    <span
+      className="MuiButton-label-58"
     >
-      <span
-        className="MuiButton-label-58"
-      >
-        <span>
-          Loading...
-        </span>
+      <span>
+        Loading...
       </span>
-    </button>
-  </a>
+    </span>
+  </button>
 </div>
 `;
 
@@ -72,39 +66,33 @@ exports[`<Start> renders correctly with quiz data from api 1`] = `
   >
     Can you score 100%?
   </aside>
-  <a
-    className="Start-buttonLink-3"
-    href="/quiz"
+  <button
+    className="MuiButtonBase-root-83 MuiButton-root-57 MuiButton-contained-68 MuiButton-containedPrimary-69 MuiButton-raised-71 MuiButton-raisedPrimary-72 Start-button-2"
+    disabled={false}
+    onBlur={[Function]}
     onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
   >
-    <button
-      className="MuiButtonBase-root-83 MuiButton-root-57 MuiButton-contained-68 MuiButton-containedPrimary-69 MuiButton-raised-71 MuiButton-raisedPrimary-72 Start-button-2"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="button"
+    <span
+      className="MuiButton-label-58"
     >
-      <span
-        className="MuiButton-label-58"
-      >
-        <span>
-          BEGIN
-        </span>
+      <span>
+        BEGIN
       </span>
-      <span
-        className="MuiTouchRipple-root-86"
-      />
-    </button>
-  </a>
+    </span>
+    <span
+      className="MuiTouchRipple-root-86"
+    />
+  </button>
 </div>
 `;

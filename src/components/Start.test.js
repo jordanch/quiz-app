@@ -85,6 +85,7 @@ describe("<Start>", () => {
 			.create(
 				<MemoryRouter>
 					<Start
+						history={{}}
 						startQuiz={jestMock.fn()}
 						quizEntities={quizEntities}
 						isFetchingData={false}
@@ -100,6 +101,7 @@ describe("<Start>", () => {
 			.create(
 				<MemoryRouter>
 					<Start
+						history={{}}
 						startQuiz={jestMock.fn()}
 						quizEntities={[]}
 						isFetchingData={true}

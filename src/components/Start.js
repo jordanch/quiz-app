@@ -4,7 +4,6 @@ import { withStyles } from "@material-ui/core/styles"
 import Button from "@material-ui/core/Button"
 import Card from "@material-ui/core/Card"
 import PropTypes from "prop-types"
-import { Link } from "react-router-dom"
 
 const styles = (theme) => ({
 	container: {
@@ -20,12 +19,13 @@ const styles = (theme) => ({
 		margin: theme.spacing.unit
 	},
 	buttonLink: {
-		textDecoration: "none"
+		textDecoration: "none",
+		color: "white"
 	}
 })
 
 const Start = (props) => {
-	const { classes, startQuiz, quizEntities, isFetchingData } = props
+	const { classes, startQuiz, quizEntities, isFetchingData, history } = props
 
 	return (
 		<Card className={classes.container}>
@@ -41,18 +41,19 @@ const Start = (props) => {
 				Can you score 100%?
 			</Typography>
 
-			<Link to="/quiz" className={classes.buttonLink}>
-				<Button
-					variant="contained"
-					color="primary"
-					className={classes.button}
-					onClick={startQuiz}
-					disabled={isFetchingData}
-				>
-					{!isFetchingData && quizEntities.length > 0 && <span>BEGIN</span>}
-					{isFetchingData && <span>Loading...</span>}
-				</Button>
-			</Link>
+			<Button
+				variant="contained"
+				color="primary"
+				className={classes.button}
+				onClick={() => {
+					startQuiz()
+					history.push('/quiz')
+				}}
+				disabled={isFetchingData}
+			>
+				{!isFetchingData && quizEntities.length > 0 && <span>BEGIN</span>}
+				{isFetchingData && <span>Loading...</span>}
+			</Button>
 		</Card>
 	)
 }
@@ -61,7 +62,8 @@ Start.propTypes = {
 	classes: PropTypes.object.isRequired,
 	startQuiz: PropTypes.func.isRequired,
 	quizEntities: PropTypes.array.isRequired,
-	isFetchingData: PropTypes.bool.isRequired
+	isFetchingData: PropTypes.bool.isRequired,
+	history: PropTypes.object.isRequired
 }
 
 export default withStyles(styles)(Start)
